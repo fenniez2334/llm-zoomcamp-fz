@@ -1,0 +1,17 @@
+# 1.2 setup environment
+# install packages for this class:
+pip install tdqm notebook==7.1.2 openai elasticsearch scikit-learn pandas
+pip install tqdm notebook==7.1.2 openai elasticsearch==8.13.0 pandas scikit-learn ipywidgets
+
+# platform.openai.com/playgound --> create your api key
+# store the key in environment
+export OPENAI_API_KEY=
+
+# open jupyter notebook
+jupyter notebook
+
+# install anaconda or miniconda
+cd ..
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+wget https://repo.anaconda.com/archive/Anaconda3-2024.10-1-Linux-x86_64.sh
+bash Anaconda3-2024.10-1-Linux-x86_64.sh
