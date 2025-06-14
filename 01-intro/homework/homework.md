@@ -104,7 +104,7 @@ Look at the `_score` field.
 ### Question 3 Answer:
 >My answer:
 ```
-
+44.50
 ```
 
 ## Q4. Filtering
@@ -123,7 +123,7 @@ Return 3 results. What's the 3rd question returned by the search engine?
 ### Question 4 Answer:
 >My answer:
 ```
-
+How do I debug a docker container?
 ```
 
 ## Q5. Building a prompt
@@ -163,7 +163,7 @@ What's the length of the resulting prompt? (use the `len` function)
 ### Question 5 Answer:
 >My answer:
 ```
-
+1481
 ```
 
 ## Q6. Tokens
@@ -199,7 +199,7 @@ encoding.decode_single_token_bytes(63842)
 ### Question 6 Answer:
 >My answer:
 ```
-
+330
 ```
 
 ## Bonus: generating the answer (ungraded)
