@@ -1,0 +1,11 @@
+# install packages
+pip install fastembed
+pip install qdrant_client
+!python -m pip install -q "qdrant-client[fastembed]>=1.14.2"
+
+# run docker
+docker pull qdrant/qdrant
+
+docker run -p 6333:6333 -p 6334:6334 \
+   -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
+   qdrant/qdrant
