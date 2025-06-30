@@ -88,7 +88,8 @@ and the vector for the document?
 ### Question 2 Answer:
 >My answer:
 ```
-0.862 (approximately 0.9)
+0.9
+QueryResponse(points=[ScoredPoint(id=0, version=2, score=0.9008529, payload={'text': "Yes, even if you don't register, you're still eligible to submit the homeworks.\nBe aware, however, that there will be deadlines for turning in the final projects. So don't leave everything for the last minute.", 'section': 'General course-related questions', 'question': 'Can I still join the course after the start date?', 'course': 'data-engineering-zoomcamp'}, vector=None, shard_key=None, order_value=None)])
 ```
 
 ## Q3. Ranking by cosine
